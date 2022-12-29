@@ -15,7 +15,10 @@
         </environment>
     </environments>
     <mappers>
-<!--        自动从类的根目录下查找路径-->
+<!--        resource自动从类的根目录下查找路径-->
         <mapper resource="CarMapper.xml"/>
+
+<!--        <mapper resource="com/CarMapper2.xml"/>-->
+<!--        <mapper url="file:///绝对路径">-->
     </mappers>
 </configuration>
